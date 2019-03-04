@@ -12,7 +12,14 @@ Formally, given a training sample of tweets and labels, where label '1' denotes 
 * [TensorFlow](https://github.com/tensorflow/tensorflow) - Bakend for Deeplearning
 * [Sklearn](http://scikit-learn.org/stable/) - Machine Learning Process
 * [Pandas](https://pandas.pydata.org) - Data structures and data 
-* [Numpy] (http://www.numpy.org/) - Data manipulation
+* [Numpy](http://www.numpy.org/) - Data manipulation
+* [Gensim](https://pandas.pydata.org) - Data structures and data 
+* [NLTK](https://www.nltk.org/) - Text manipulation and NLP
+* [seaborn](https://seaborn.pydata.org/) - Data visualization library based on matplotlib
+* [wordcloud](http://amueller.github.io/word_cloud/) - Wordclouds plotting
+* [editdistance](https://github.com/aflc/editdistance) - Data structures and data 
+* [FasText](https://fasttext.cc/) - Library for efficient text classification
+* [Glove](https://nlp.stanford.edu/projects/glove/) - Models for GLOVE (other aproach to word2vec)
 
 ## Authors
 
