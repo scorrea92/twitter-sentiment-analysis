@@ -3,3 +3,6 @@ personal_library
 data/numpy_vectorize_data.npy
 data/dataset
 model_wehigts
+*.ipynb_checkpoints
+*__pycache__
+*.DS_Store
