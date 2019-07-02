@@ -2,6 +2,7 @@
 personal_library
 data/numpy_vectorize_data.npy
 data/dataset
+data/vectors
 model_wehigts
 *.ipynb_checkpoints
 *__pycache__
