@@ -6,6 +6,34 @@ The objective of this task is to detect hate speech in tweets. For the sake of s
 
 Formally, given a training sample of tweets and labels, where label '1' denotes the tweet is racist/sexist and label '0' denotes the tweet is not racist/sexist, your objective is to predict the labels on the test dataset.
 
+## Rsults
+
+* Data preprocess [here](jupyter/1.data_process.ipynb)
+* Data Analysis [here](jupyter/2.data_analysis.ipynb)
+* Clasical machine leraning aproach [here](jupyter/3.classic_ML.ipynb)
+* Neural Networks [here](jupyter/4.neural_networks.ipynb)
+* Own keras emmbeding [here](jupyter/5.own_embedding.ipynb)
+* GLOVE aproach [here](jupyter/6.GLOVE.ipynb)
+* Word2Vec aproach [here](jupyter/7.word2vec.ipynb)
+* NumberBatch aproach [here](jupyter/8.NumberBatch.ipynb)
+
+| Method             | F1      | ACC     |loss     |Extra      |
+|:------------------ |:-------:|:-------:|:-------:|:---------:|
+|Decision Tree TF-IDF| 47.1195 |         |    -    |     -     |
+|NN with BOW & TF-IDF| 45.2961 |  93.35  |   F1    |     -     |
+|Own Embedding       | 54.8042 |  94.04  |   F1    |     -     |
+|Own Embedding       |         |         | Binary  |     -     |
+|Own Embedding       |         |         |         | Cos_decay |
+|Own Embedding Deep  |         |         |         |     -     |
+|GLOVE               | 51.7894 |  94.71  |   F1    |     -     |
+|Word2Vec            | 54.4349 |  94.23  |   F1    |     -     |
+|NumberBatch         | 12.8786 |  07.05  |   F1    |     -     |
+
+
+## Web Implementation
+This project was used for train the model for a web app, analys your tweet, go to [here]() to see the repository.
+For the demo app click [here](). For the medium post click [here]()
+
 ## Built With
 
 * [Keras](https://github.com/keras-team/keras) - Frontend for Deeplearning
@@ -20,6 +48,7 @@ Formally, given a training sample of tweets and labels, where label '1' denotes 
 * [editdistance](https://github.com/aflc/editdistance) - Data structures and data 
 * [FasText](https://fasttext.cc/) - Library for efficient text classification
 * [Glove](https://nlp.stanford.edu/projects/glove/) - Models for GLOVE (other aproach to word2vec)
+* [Word2Vec](https://code.google.com/archive/p/word2vec/)
 
 ## Authors
 
