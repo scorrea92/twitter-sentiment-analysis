@@ -16,18 +16,20 @@ Formally, given a training sample of tweets and labels, where label '1' denotes 
 * GLOVE aproach [here](jupyter/6.GLOVE.ipynb)
 * Word2Vec aproach [here](jupyter/7.word2vec.ipynb)
 * NumberBatch aproach [here](jupyter/8.NumberBatch.ipynb)
+* Elmo aproach [here](jupyter/8.Elmo.ipynb)
 
-| Method             | F1      | ACC     |loss     |Extra      |
-|:------------------ |:-------:|:-------:|:-------:|:---------:|
-|Decision Tree TF-IDF| 47.1195 |         |    -    |     -     |
-|NN with BOW & TF-IDF| 45.2961 |  93.35  |   F1    |     -     |
-|Own Embedding       | 54.8042 |  94.04  |   F1    |     -     |
-|Own Embedding       |         |         | Binary  |     -     |
-|Own Embedding       |         |         |         | Cos_decay |
-|Own Embedding Deep  |         |         |         |     -     |
-|GLOVE               | 51.7894 |  94.71  |   F1    |     -     |
-|Word2Vec            | 54.4349 |  94.23  |   F1    |     -     |
-|NumberBatch         | 12.8786 |  07.05  |   F1    |     -     |
+**Results in validation set**
+
+| Method             | F1      | ACC     |
+|:------------------ |:-------:|:-------:|
+|Decision Tree TF-IDF| 47.1195 |         |
+|NN with BOW & TF-IDF| 45.2961 |  93.35  |
+|Own Embedding       | 57.3957 |  94.04  | Falta repetir
+|Own Embedding Deep  |         |         |
+|GLOVE               | 51.7894 |  94.71  |
+|Word2Vec            | 54.4349 |  94.23  |
+|NumberBatch         | 12.8786 |  07.05  |
+|Elmo                |         |         |
 
 
 ## Web Implementation
