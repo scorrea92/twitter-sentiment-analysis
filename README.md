@@ -16,7 +16,8 @@ Formally, given a training sample of tweets and labels, where label '1' denotes 
 * GLOVE aproach [here](jupyter/6.GLOVE.ipynb)
 * Word2Vec aproach [here](jupyter/7.word2vec.ipynb)
 * NumberBatch aproach [here](jupyter/8.NumberBatch.ipynb)
-* Elmo aproach [here](jupyter/8.Elmo.ipynb)
+* ELMO aproach [here](jupyter/8.Elmo.ipynb)
+* BERT aproach [here](jupyter/9.BERT.ipynb)
 
 **Results in validation set**
 
