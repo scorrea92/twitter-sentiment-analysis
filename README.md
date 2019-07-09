@@ -27,7 +27,7 @@ Formally, given a training sample of tweets and labels, where label '1' denotes 
 |NN with BOW & TF-IDF| 45.2961 |  93.35  |
 |Own Embedding       | 57.3957 |  94.04  | Falta repetir
 |Own Embedding Deep  |         |         |
-|GLOVE               | 51.7894 |  94.71  |
+|GLOVE               | 52.4426 |  92.53  |
 |Word2Vec            | 54.4349 |  94.23  |
 |NumberBatch         | 12.8786 |  07.05  |
 |Elmo                |         |         |
