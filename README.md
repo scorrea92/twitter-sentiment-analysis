@@ -56,3 +56,6 @@ For the demo app click [here](). For the medium post click [here]()
 ## Authors
 
 * **Sebastian Correa Echeverri** [scorrea92 gitlab](https://gitlab.com/scorrea92) [scorrea92 github](https://github.com/scorrea92)
+
+## Licence
+see LICENCE file
