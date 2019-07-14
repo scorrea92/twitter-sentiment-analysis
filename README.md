@@ -25,12 +25,12 @@ Formally, given a training sample of tweets and labels, where label '1' denotes 
 |:------------------ |:-------:|:-------:|
 |Decision Tree TF-IDF| 47.1195 |         |
 |NN with BOW & TF-IDF| 45.2961 |  93.35  |
-|Own Embedding       | 57.3957 |  94.04  |
+|Own Embedding       | 57.4257 |  94.62  |
 |Own Embedding Deep  |         |         |
 |GLOVE               | 52.4426 |  92.53  |
 |Word2Vec            | 50.4634 |  92.47  |
 |ELMO                | 56.8396 |  94.27  |
-|BERT                | 62.4100 |  95.87  |
+|BERT                | 62.3290 |  95.51  |
 
 
 ## Web Implementation

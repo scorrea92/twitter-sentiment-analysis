@@ -7,3 +7,5 @@ data/vectors
 *__pycache__
 *.DS_Store
 .vscode
+model_weights/9_ch.hdf5
+model_weights/9_w.hdf5
