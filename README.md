@@ -6,7 +6,7 @@ The objective of this task is to detect hate speech in tweets. For the sake of s
 
 Formally, given a training sample of tweets and labels, where label '1' denotes the tweet is racist/sexist and label '0' denotes the tweet is not racist/sexist, your objective is to predict the labels on the test dataset.
 
-## Rsults
+## Results
 
 * Data preprocess [here](jupyter/1.data_process.ipynb)
 * Data Analysis [here](jupyter/2.data_analysis.ipynb)
@@ -35,7 +35,7 @@ Formally, given a training sample of tweets and labels, where label '1' denotes 
 
 ## Web Implementation
 This project was used for train the model for a web app, analys your tweet, go to [here]() to see the repository.
-For the demo app click [here](). For the medium post click [here]()
+For the demo app click [here](). For the medium post click [here](https://medium.com/@scorrea92/nlp-twitter-sentiment-analysis-with-tensorflow-15e1b2594cfa)
 
 ## Built With
 
